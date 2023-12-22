@@ -46,26 +46,26 @@
 # ■ Порахуйте скільки разів цифри зустрічаються у тексті;
 # ■ Порахуйте скільки разів розділові знаки зустрічаються в тексті;
 # ■ Порахуйте кількість знаків оклику в тексті.
-
-try:
-    text = '''the marathon took place on Route 5, attracting runners from across the country.
-participants received numbered bibs, making it easier for spectators to track their favorite athletes!!!'''
-
-    print(text.capitalize())
-
-    countDigit = 0
-    for i in text:
-        if i.isdigit():
-            countDigit += 1
-    print(f"Count digit = {countDigit}")
-
-    punctuation = set(".,;:!?")
-    countPunctuation = 0
-    for i in text:
-        if i in punctuation:
-            countPunctuation += 1
-    print(f"Count punctuation = {countPunctuation}")
-
-    print(f"Count = {text.count('!')}")
-except Exception as Error:
-    print(f"ExceptionError: {Error}")
+#
+# try:
+#     text = '''the marathon took place on Route 5, attracting runners from across the country.
+# participants received numbered bibs, making it easier for spectators to track their favorite athletes!!!'''
+#
+#     print(text.capitalize())
+#
+#     countDigit = 0
+#     for i in text:
+#         if i.isdigit():
+#             countDigit += 1
+#     print(f"Count digit = {countDigit}")
+#
+#     punctuation = set(".,;:!?")
+#     countPunctuation = 0
+#     for i in text:
+#         if i in punctuation:
+#             countPunctuation += 1
+#     print(f"Count punctuation = {countPunctuation}")
+#
+#     print(f"Count = {text.count('!')}")
+# except Exception as Error:
+#     print(f"ExceptionError: {Error}")
