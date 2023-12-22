@@ -13,3 +13,14 @@
 #     print(f"Count letter = {countLetter};\nCount number = {countNumber}.")
 # except Exception as Error:
 #     print(f"ExceptionError : {Error}")
+
+# 2. Користувач вводить з клавіатури рядок та символ для пошуку.
+# Порахуйте скільки разів у рядку зустрічається потрібний символ.
+# Отримане число виведіть на екран.
+
+# try:
+#     inputLine = str(input("Enter a line: "))
+#     inputSearchSymbol = str(input("Enter search symbol: "))
+#     print(f"Count search symbol = {inputLine.count(inputSearchSymbol)}")
+# except Exception as Error:
+#     print(f"ExceptionError : {Error}")
