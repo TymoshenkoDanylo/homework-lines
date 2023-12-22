@@ -24,3 +24,16 @@
 #     print(f"Count search symbol = {inputLine.count(inputSearchSymbol)}")
 # except Exception as Error:
 #     print(f"ExceptionError : {Error}")
+
+# 3. Користувач вводить з клавіатури рядок, слово для пошуку,
+# слово для заміни. Зробіть у рядку заміну одного слова на інше.
+# Отриманий рядок на екрані.
+
+try:
+    text = str(input("Input text: "))
+    search = str(input("Enter a search word: "))
+    replacement = str(input("Enter a replacement word: "))
+    newText = text.replace(search, replacement)
+    print(f"New text: {newText}")
+except Exception as Error:
+    print(f"ExceptionError: {Error}")
